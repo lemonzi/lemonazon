@@ -178,5 +178,6 @@ function init() {
         icon: image
     });
 
-    */
 }
+
+*/
