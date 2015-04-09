@@ -147,13 +147,21 @@ a {
     }
     @media(min-width:768px) {
         height: 100%;
-        padding: 0;
+        padding: 100px 0;
         .intro-body {
             .brand-heading {
-                font-size: 100px;
+                font-size: 80px;
             }
             .intro-text {
                 font-size: 26px;
+            }
+        }
+    }
+    @media(min-width:991px) {
+        padding: 80px 0;
+        .intro-body {
+            .brand-heading {
+                font-size: 100px;
             }
         }
     }
@@ -232,11 +240,23 @@ a {
     }
 }
 
-/*
+
 .content-section {
-    padding-top: 100px;
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+    background: url(../img/downloads.jpg) no-repeat bottom center scroll;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
+/*
 .download-section {
     width: 100%;
     padding: 50px 0;
@@ -352,12 +372,8 @@ body {
 // From here on, Countdown stuff
 
 .countdown-container {
-	position: relative;
-	top: 50%;
-	-webkit-transform: translateY(-50%);
-	-moz-transform: translateY(-50%);
-	transform: translateY(-50%);
-
+    padding-top: 30px;
+    max-width: 960px;
 }
 
 .clock-item .inner {
@@ -378,23 +394,24 @@ body {
 	color: #fff;	
 	font-size: 30px;
 	font-weight: bold;	
-	margin-top: -50px;
 	position: absolute;
 	top: 50%;
 	text-align: center;
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+	//text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 	width: 100%;
 }
 
 .text .val {
 	font-size: 50px;
+    margin-top: -50px;
 }
 
 .text .type-time {
 	font-size: 20px;
+    margin-top: -30px;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 991px) {
 	.clock-item {
 		margin-bottom: 30px;		
 	}
@@ -402,6 +419,9 @@ body {
 
 @media (max-width: 767px) {
 	.clock-item {
-		margin: 0px 30px 30px 30px;
+		// margin: 0px 30px 30px 30px;
 	}
+    .countdown-container {
+        max-width: 450px;
+    }
 }
