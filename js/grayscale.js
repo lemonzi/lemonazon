@@ -32,7 +32,7 @@ $('.navbar-collapse ul li a').click(function() {
 // Countdown
 $('.countdown').final_countdown({
     'start': Date.UTC(2015, 0, 0) / 1000,
-    'end': Date.UTC(2015, 5-1, 23, 12) / 1000,
+    'end': Date.UTC(2015, 5-1, 23, 12-2) / 1000,
     'now': Date.now() / 1000
 });
 
