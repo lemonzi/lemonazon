@@ -4,3 +4,4 @@ INSTRUCTIONS for dummies
 // Compilation line to try out CSS
 lessc less/grayscale.less >css/grayscale.css
 
+python -m SimpleHTTPServer
