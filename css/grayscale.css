@@ -394,7 +394,7 @@ PRICING STYLES
 .btn-default:focus {
   border: 1px solid #ffffff;
   outline: none;
-  color: black;
+  color: white;
   background-color: #ffffff;
 }
 ul.banner-social-buttons {
