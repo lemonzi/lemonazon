@@ -58,10 +58,10 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#instagram">Fotos</a>
+                        <a class="page-scroll" href="#fotos">Fotos</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#map">On?</a>
+                        <a class="page-scroll" href="#mapa">On?</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#donate">Donacions</a>
@@ -81,7 +81,10 @@
                     <div class="col-xs-12">
                         <h1 class="brand-heading"><span class="light">#</span>lemonazon</h1>
                         <p class="intro-text"> <strong>23 de Maig del 2015</strong></p>
-                        <p class="form-button btn btn-default hidden">Confirmar<br><small>(abans del 30 d'abril)</small></p>
+                        <a href="http://goo.gl/forms/URQq4e3bp7"
+                           target="_blank"
+                           class="form-button btn btn-default hidden"
+                        >Confirmar<br><small>(abans del 30 d'abril)</small></a>
                     </div>
                 </div>
             </div>
@@ -149,8 +152,6 @@
     </header>
 
 
-
-
     <!-- About Section -->
     <section id="about" class="container content-section text-center">
         <div class="row">
@@ -162,22 +163,14 @@
                 <p>En aquesta plana trobaràs la informació sobre on es farà, quan es farà, els horaris, els pressupostos, i la possibilitat d'ajudar-nos a documentar-ho tot.</p>
             </div>
         </div>
-            <div class="container">
-                <div class="row">
-                    <a href="#instagram" class="btn btn-circle page-scroll">
-                        <i class="fa fa-angle-double-down animated"></i>
-                    </a> 
-                </div>
-            </div>
     </section>
 
     <!-- Instagram Feed -->
-    <section id="instagram" class="instagram-section text-center">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>FOTOS</h2>
-                    <p>Si sou una colla de modernus com nosaltres, no dubteu en etiquetar amb el hashtag (almohadilla) <strong>#lemonazon</strong> i així ho podrem tenir tot plegat i tothom podrà gaudir de les vostres habilitats artístiques. <br>Ànims ànims! Volem saber que penseu en nosaltres de mil maneres! Qualsevol foto que feu sortirà en aquesta magnífica web, així ho podrem disfrutar i compartir amb més artístes.</p>
-                </div>
+    <section id="fotos" class="container instagram-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>FOTOS</h2>
+                <p>Si sou una colla de modernus com nosaltres, no dubteu en etiquetar amb el hashtag (almohadilla) <strong>#lemonazon</strong> i així ho podrem tenir tot plegat i tothom podrà gaudir de les vostres habilitats artístiques. <br>Ànims ànims! Volem saber que penseu en nosaltres de mil maneres! Qualsevol foto que feu sortirà en aquesta magnífica web, així ho podrem disfrutar i compartir amb més artístes.</p>
             </div>
             <script src="http://snapwidget.com/js/snapwidget.js"></script>
             <iframe 
@@ -187,26 +180,25 @@
                 allowTransparency="true"
                 frameborder="0"
                 scrolling="no"
-                style="border:none; overflow:hidden; width:100%; height:100%"
+                style="border:none; overflow:hidden; width:100%; height:306px"
             ></iframe>
+        </div>
     </section>
 
     <!-- Map Section -->
-    <section id="map" class="map-section text-center">
+    <section id="mapa" class="container map-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>ON?</h2>
-                <p>El Folló (amb accent, malpensats!)</p>
+                <p>Celebrarem el dinar a El Folló, una masia prop del Montseny on fan un menjar fantàstic amb productes de l'hort. Si algú ho vol, que sapigueu que tenen habitacions que podeu llogar si voleu aprofitar l'aniventesa per passar un temps a la natura - però n'hi ha molt poques, així que afanyeu-vos! Nosaltres hi passarem la nit de noces, i segurament aprofitarem per fer alguna excursió que estarem encantats de compartir. </p>
+                <p>Us ho confirmarem quan s'acosti el dia, però comptem que els convidats arribaran cap a les 12 per poder celebrar la cerimònia abans de menjar.</p>
             </div>
-        </div>
-        <iframe
-            id="map-iframe"
-            width="100%"
-            height="100%"
-            frameborder="0" 
-            style="border:0" 
-            src="https://www.google.com/maps/embed/v1/place?q=El%20Follo%20Restaurant%20i%20Casa%20Rural%2C%20Tagamanent%2C%20Espa%C3%B1a&zoom=10&key=AIzaSyDyFctxdK4KRs75nsGueLZ1A6k-fOGVbAo"
-        ></iframe>
+            <iframe
+                id="map-iframe"
+                frameborder="0" 
+                class="map-widget"
+                src="https://www.google.com/maps/embed/v1/place?q=El%20Follo%20Restaurant%20i%20Casa%20Rural%2C%20Tagamanent%2C%20Espa%C3%B1a&zoom=10&key=AIzaSyDyFctxdK4KRs75nsGueLZ1A6k-fOGVbAo"
+            ></iframe>
     </section>
 
 
@@ -215,124 +207,107 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Donacions!</h2>
-                <p>NECESSITEM SPONSORS! Som estudiants amb plans de futur.Tenim un gran pla estratègic que necessita d'inversors com vosaltres, i us animem a que confieu en la nostra capacitat financera!</p>
+                <p>NECESSITEM SPONSORS! Som estudiants amb plans de futur. Tenim un gran pla estratègic que necessita d'inversors com vosaltres, i us animem confiar en la nostra capacitat financera!</p>
                 <p>Per fer possible celebrar-ho amb vosaltres, hem trobat un preciós espai on estareu com reis i, demanem la vostra col·laboració. Ens fa moltíssima il·lusió que hi pogueu ser, així que seria un regal preciós que vinguessiu.</p>
-                <p> Necessitem confirmar el nombre exacte de persones, per tant, us demanem que escolliu algun dels següents packs i feu l'ingrés abans del dia XX XX XX.</p>
+                <p> Necessitem confirmar el nombre exacte de persones, per tant, us demanem que escolliu algun dels següents packs i feu l'ingrés abans del 30 d'abril.</p>
                 <p> Marxem a l'altre punta del món, així que hem de volar lleugers, per això hem decidit que el millor regal que ens podeu fer és venir a veure'ns.</p>
                 <p>Sou 100% lliures d'escollir què donar, tot i que als convidats els hi demanem el Pack bàsic per a cobrir gastos. La resta és lliure de donar tot el que vulgui, però si ens indiqueu què voleu, us farem el pack promès! Siusplau, ingresseu-ho al número de compte (amb el vostre nom i el pack que voleu i número de persones): <br>ES60 2100 0859 2102 0046 5673</p>
+
+                <!-- DONATION PACKS -->
+                <div class="row db-padding-btm db-attached">
+
+                  <!-- PACK 1 -->
+                  <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                      <div class="db-wrapper">
+                          <div class="db-pricing-eleven db-bk-color-two">
+                              <div class="price">
+                                  30€ <small>de 0 a 13 anys</small>
+                              </div>
+                              <div class="type">
+                                  PEQUES PLAN
+                              </div>
+                              <ul>
+                                  <li>El Menú a "El Folló" (per petits) </li>
+                                  <li>Una nanny que els cuidarà durant el dia</li>
+                                  <li>Un pin!</li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!-- PACK 1 -->
+                  <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                      <div class="db-wrapper">
+                          <div class="db-pricing-eleven db-bk-color-two">
+                              <div class="price">
+                                  60€ <small>pels convidats</small>
+                              </div>
+                              <div class="type">
+                                  BASIC PLAN
+                              </div>
+                              <ul>
+                                  <li>El Menú a "El Folló" </li>
+                                  <li>Un pin, com els peques!</li>
+                                  <li>Un dia genial amb nosaltres ;)</li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!-- PACK 2 -->
+                  <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                      <div class="db-wrapper">
+                          <div class="db-pricing-eleven db-bk-color-two">
+                              <div class="price">
+                                  100€ <small>pels generosos</small>
+                              </div>
+                              <div class="type">
+                                  SPONSOR PLAN
+                              </div>
+                              <ul>
+                                  <li>El Basic Plan més... </li>
+                                  <li>Una fantàstica foto impresa on sortireu amb els nuvis</li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!-- PACK 3 -->
+                  <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                      <div class="db-wrapper">
+                          <div class="db-pricing-eleven db-bk-color-two">
+                              <div class="price">
+                                  150€ <small>pels nostres fans</small>
+                              </div>
+                              <div class="type">
+                                  FAN PLAN
+                              </div>
+                              <ul>
+                                  <li>L'Sponsor Plan més...</li>
+                                  <li>Una postal enviada des del Canadà</li>
+                                  <li>Una samarreta especial #lemonazon</li>
+                              </ul>
+                          </div>
+                      </div>
+                   </div>
+                </div>
             </div>
-
-            <!-- DONATION PACKS -->
-            <div class="container">      
-                       
-              <div class="row db-padding-btm db-attached">
-
-                        <!-- PACK 1 -->
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                            <div class="db-wrapper">
-                            <div class="db-pricing-eleven db-bk-color-two popular">
-                                <div class="price">
-                                    30€
-                                            <small>de 0 a 13 anys</small>
-                                </div>
-                                <div class="type">
-                                    PEQUES PLAN
-                                </div>
-                                <ul>
-                                    <li>El Menú a "El Folló" (per petits) </li>
-                                    <li>Una nanny que els cuidarà durant el dia</li>
-                                    <li>Una experiència per la natura amb altre canalla</li>
-                                </ul>
-
-                            </div>
-                            </div>
-                        </div>
-
-                        <!-- PACK 1 -->
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                            <div class="db-wrapper">
-                            <div class="db-pricing-eleven db-bk-color-two popular">
-                                <div class="price">
-                                    60€
-                                            <small>per convidats</small>
-                                </div>
-                                <div class="type">
-                                    MEDIUM PLAN
-                                </div>
-                                <ul>
-                                    <li>El Menú a "El Folló" </li>
-                                    <li>Un pin!</li>
-                                    <li>Un dia genial amb nosaltres ;)</li>
-                                </ul>
-
-                            </div>
-                            </div>
-                        </div>
-
-                        <!-- PACK 2 -->
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                            <div class="db-wrapper">
-                            <div class="db-pricing-eleven db-bk-color-two popular">
-                                <div class="price">
-                                    100€
-                                            <small>per atrevits</small>
-                                </div>
-                                <div class="type">
-                                    bla bla PLAN
-                                </div>
-                                <ul>
-                                    <li>Idem Medium Plan més... </li>
-                                    <li>Una foto impresa amb nosaltres d'alta qualitat on sortireu preciosos </li>
-                                </ul>
-
-                            </div>
-                            </div>
-                        </div>
-
-                        <!-- PACK 3 -->
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                            <div class="db-wrapper">
-                            <div class="db-pricing-eleven db-bk-color-two popular">
-                                <div class="price">
-                                    150€
-                                            <small>per locos de turno</small>
-                                </div>
-                                <div class="type">
-                                    SPONSOR PLAN
-                                </div>
-                                <ul>
-                                    <li>Idem bla bla Plan més... </li>
-                                    <li>Una postal personalitzada des de Canadà</li>
-                                    <li> ... </li>
-                                </ul>
-
-                            </div>
-                            </div>
-                        </div>
+        </div>
     </section>
 
 
 
 
-    <!-- Footer -->
     <!-- SOCIAL NETWORKS -->
-    <footer>
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-<!-- // -->
-<div class="container">
-<!-- Social Footer, Single Coloured -->
-<!-- Include Font Awesome Stylesheet in Header -->
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-<!-- // -->
-<div class="container">
-        <div class="text-center center-block">
-            <br />
-                <a href="https://www.instagram.com/lemonazon"><i id="social" class="fa fa-instagram fa-3x"></i></a>
-                <a href="https://twitter.com/lemonazon"><i id="social" class="fa fa-twitter-square fa-3x"></i></a>
-                <a href="https://plus.google.com/+Bootsnipp-page"><i id="social" class="fa fa-google-plus-square fa-3x"></i></a>
-                <a href="mailto:maalaz16@gmail.com"><i id="social" class="fa fa-envelope-square fa-3x"></i></a>
+    <footer class="container text-center">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <!-- Social Footer, Single Coloured -->
+        <!-- Include Font Awesome Stylesheet in Header -->
+        <div class="center-block">
+            <a href="https://instagram.com/explore/tags/lemonazon/"><i id="social" class="fa fa-instagram fa-5x"></i></a>
+            <a href="https://twitter.com/search?q=lemonazon"><i id="social" class="fa fa-twitter-square fa-5x"></i></a>
+            <a href="mailto:contact@lemonazon.com"><i id="social" class="fa fa-envelope-square fa-5x"></i></a>
         </div>
-</div>
 
     </footer>
 
