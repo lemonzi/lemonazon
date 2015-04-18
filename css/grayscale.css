@@ -52,7 +52,7 @@ a:focus {
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: white;
+  background-color: black;
 }
 .navbar-custom .navbar-brand {
   font-weight: 700;
@@ -63,12 +63,13 @@ a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
   padding: 4px 6px;
   font-size: 16px;
-  color: black;
+  color: white;
 }
 .navbar-custom .navbar-brand .navbar-toggle:focus,
 .navbar-custom .navbar-brand .navbar-toggle:active {
   outline: none;
 }
+.navbar-custom button,
 .navbar-custom a {
   color: white;
 }
