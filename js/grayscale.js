@@ -36,6 +36,13 @@ $('.countdown').final_countdown({
     'now': Date.now() / 1000
 });
 
+// RVSP form button
+var hash = window.location.hash.substring(1);
+if (hash == "invite") {
+    $('.form-button').removeClass('hidden');
+}
+
+
 /*
 
 // Google Maps Scripts
