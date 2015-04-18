@@ -34,7 +34,7 @@ p {
   }
 }
 a {
-  color: #ffffff;
+  color: #000000;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -42,7 +42,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #cccccc;
+  color: #000000;
 }
 .light {
   font-weight: 400;
@@ -383,19 +383,18 @@ PRICING STYLES
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  border-radius: 0;
+  border-radius: 10;
 }
 .btn-default {
-  border: 1px solid #ffffff;
-  color: #ffffff;
+  border: 1px solid white;
+  color: white;
   background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #ffffff;
   outline: none;
-  color: white;
-  background-color: #ffffff;
+  color: #000000;
+  background-color: white;
 }
 ul.banner-social-buttons {
   margin-top: 0;
