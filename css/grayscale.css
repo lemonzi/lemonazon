@@ -255,16 +255,16 @@ a:focus {
 }
 /* DONATIONS PACKS */
 .db-bk-color-one {
-  background-color: #f55039;
+  background-color: #9F9F9F;
 }
 .db-bk-color-two {
-  background-color: #46A6F7;
+  background-color: #808080;
 }
 .db-bk-color-three {
-  background-color: #47887E;
+  background-color: #616161;
 }
 .db-bk-color-six {
-  background-color: #F59B24;
+  background-color: #CCCCCC;
 }
 /*============================================================
 PRICING STYLES
@@ -274,7 +274,7 @@ PRICING STYLES
 }
 .db-button-color-square {
   color: #fff;
-  background-color: #96B4FF;
+  background-color: #9F9F9F;
   border: none;
   border-radius: 0px;
   -webkit-border-radius: 0px;
@@ -308,20 +308,20 @@ PRICING STYLES
   margin-right: 5px;
 }
 .db-pricing-eleven .price {
-  background-color: #487CFF;
+  background-color: #CCCCCC;
   padding: 40px 20px 20px 20px;
   font-size: 60px;
   font-weight: 900;
-  color: #FFFFFF;
+  color: #000000;
 }
 .db-pricing-eleven .price small {
-  color: #FFFFFF;
+  color: #000000;
   display: block;
   font-size: 12px;
   margin-top: 22px;
 }
 .db-pricing-eleven .type {
-  background-color: #1C5CFC;
+  background-color: #9F9F9F;
   padding: 50px 20px;
   font-weight: 900;
   text-transform: uppercase;
